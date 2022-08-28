@@ -377,7 +377,7 @@ metadata:
   namespace: monitoring
   annotations:
     nginx.ingress.kubernetes.io/backend-protocol: GRPC
-    nginx.ingress.kubernetes.io/force-ssl-redirect: 'true'
+    nginx.ingress.kubernetes.io/ssl-redirect: 'true'
     nginx.ingress.kubernetes.io/grpc-backend: 'true'
     nginx.ingress.kubernetes.io/protocol: h2c
     nginx.ingress.kubernetes.io/proxy-read-timeout: '160'
